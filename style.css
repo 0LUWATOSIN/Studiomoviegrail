@@ -1,0 +1,148 @@
+.nav-item:hover {
+  background: orangered;
+}
+
+body{
+    height: 200vh;
+}
+#demo {
+  height: 80vh;
+}
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img{
+    height:80vh;
+    object-fit: cover;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+}
+.carousel-caption {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0%;
+  left: 0;
+  padding-top: 14.5rem;
+}
+
+.movie-info {
+  position: relative;
+  left: 130px;
+  top: 0px;
+}
+
+i {
+  cursor: pointer;
+}
+
+#mid-section {
+  margin: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid gray;
+  padding: 10px;
+}
+
+.dropdown{
+    margin-right: 50px;
+}
+
+.sub{
+    font-size: 1.5rem;
+    font-weight: bold;
+ 
+}
+
+.sub-mid{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+
+#images{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+
+    /* padding: 7% 15%; */
+}
+
+.form-control{
+    margin-left: 10px;
+}
+
+.image-text{
+    display: flex;
+}
+
+#dine-in{
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.932)), url(image/food1.jpeg);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#show{
+  background-image: linear-gradient(to right, rgb(0, 0, 0),rgba(0, 0, 0, 0.459)), url(image/food1.jpeg);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#free-movies{
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.459)), url(image/food2.jpeg);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+#informations p{
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#informations p:hover{
+  color: rgba(255, 0, 0, 0.767);
+  cursor: pointer;
+}
+footer .list-unstyled a {
+  text-decoration: none;
+  font-size: .7rem;
+}
+.joinsmg p {
+  font-size: .8rem;
+}
+.navbar {
+  z-index: 10000;
+}
+#closeCanvass {
+  background: none;
+  border: none;
+  outline: none;
+}
+.offcanvas {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.offcanvas-body p{
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+.offcanvas-body p:hover{
+  background-color: rgba(255, 128, 0, 0.67);
+  cursor: pointer;
+}
